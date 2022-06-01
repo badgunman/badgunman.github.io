@@ -1,4 +1,4 @@
 # Андрей Белов
 Мои домашние задания
 
-[Урок 12][https://badgunman.github.io/lesson_12/ "Моя готовая домашка"]
+<code>[Урок 12]([адрес](https://badgunman.github.io/lesson_12/) "Моя готовая домашка")</code> Работа с репозиторием на GitHub
