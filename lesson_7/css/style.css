@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, sans-serif; /*шрифт текста*/
+  line-height: 1.5; /*высота строки*/
+  color: #333333; /*цвет текста для всего body*/
+}
+.section {
+  padding: 30px 10%; /*отступ сверху 30px по краям по 10%*/
+}
+.header {
+  margin-top: 80px; /*отступ сверху 80px*/
+  font-size: 24px; /*размер текста*/
+  text-align: center; /*текст по центру*/
+}
+.header span{
+font-weight: 400; /*насыщенность шрифта от 100 до 900 с шагом 100*/
+display: block; /*Превратит любой элемент в блочный*/
+}
+.header strong{
+  font-weight: 900; /*насыщенность шрифта от 100 до 900 с шагом 100*/
+text-transform: uppercase; /*текст заглавными*/
+}
+.main{
+  text-align: center; /*выровнять по центру блоки*/
+  margin-top: 80px; /*отступ сверху 80px*/
+}
+.video, .form{
+  display: inline-block; /*строчно блочны блоки*/
+  /*border: 2px solid red;*/ /*что бы видеть их границы*/
+  vertical-align: top; /*вертикальное выравнивание для обоих*/
+}
+.form{
+  margin-left: 30px; /*отступ слева*/
+  text-align: center; /*выровнять по центру блоки*/
+  padding: 20px;
+  border: 2px solid #2727d9;
+}
+.form-header{
+ text-align: center; /*текст по центру*/
+ font-style: 20px; /*размер текста*/
+ font-weight: 900; /*жирный текст*/
+ margin-bottom: 40px; /*отступ снизу*/
+}
+.form input{
+  display: block; /*что бы строки ввода стали не в строку а в столбец*/
+  margin-top: 14px; /*отступ между строками ввода текста*/
+  width: 300px;
+  padding: 17px;
+  font-size: 18px;
+  border: 1px solid #333333;
+}
+.btn{
+  margin-top: 14px;
+  font-style: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #2727d9;
+  border: none;
+  width: 300px;
+  height: 60px;
+  display: block;
+  margin: 11px auto; /*выравнивание кнопок сверху и снизу 11px, по краям автовыравнивание*/
+}
+.col{
+  display: inline-block;
+  text-align: center;
+  margin: 10px 50px;
+  width: 150px;
+  height: 150px;
+
+}
+.feature-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+}
+.feature{
+  margin: 60px auto;
+  text-align: center;
+}
+.header3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+}
