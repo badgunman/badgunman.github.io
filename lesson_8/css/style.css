@@ -1,0 +1,20 @@
+.box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  font-family: arial, sans-serif;
+}
+
+.img-rounded{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 60%; /*Размер картинок -40%*/
+ }
+ /*Выровнять блоки col по нижнему краю*/
+ .row{
+  display: flex;
+  align-items: flex-end;
+ }
