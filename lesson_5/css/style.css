@@ -1,0 +1,28 @@
+h1 { /*Заголовок*/
+  color: green; /*Применяем цвет - зеленый*/
+  text-align: center; /*По центру*/
+  text-transform: uppercase; /*ЗАГЛАВНЫМИ*/
+  text-decoration: underline; /*подчеркнутый*/
+}
+
+a { /*Берем тэг "а" и применяем к нему форматирование*/
+  background-color: #22b3b0; /*заливка текста цветом*/
+  display: inline-block; /*применяем строчно блочное форматирование*/
+  border: 1px solid #000; /*блок - описываем текст границами в блок, толщина линии 1px, цвет линии "черный"*/
+}
+
+span	{ /*Берем тэг "span"*/
+	background-color: red; /*заливка текста цветом*/
+}
+.text { /*Берем класс text и применяем к нему форматирование*/
+  color: blue; /*цвет текста в синий*/
+  font-weight: bold; /*жирный шрифт*/
+}
+
+.text-block { /*Берем класс "text-block"*/
+  text-decoration: line-through; /*зачеркнутый*/ 
+}
+
+a { /*Берем клас "a"*/
+  text-transform: uppercase; /*делаем ЗАГЛАВНЫМИ кнопки ссылок*/
+}
