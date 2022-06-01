@@ -1,0 +1,40 @@
+// main: style.less
+
+
+.feedback-forms-all {
+  padding: 6rem 0 9rem 0;
+}
+
+.section-title {
+  margin-bottom: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'museo_bold', sans-serif;
+  font-size: 3rem;
+  color: @black;
+}
+.section-title {
+	& .upper-icon-wrapper {&::before {
+		content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.1rem;
+  margin-bottom: @tsize;
+  background-color: @grey;
+	}
+		&::after {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.1rem;
+  margin-bottom: @tsize;
+  background-color: @grey;
+ }
+ &.upper-icon {
+ 	margin-bottom: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+ }
+	}
+}
+	
