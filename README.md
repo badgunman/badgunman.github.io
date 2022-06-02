@@ -16,3 +16,5 @@
 [Урок 10](https://badgunman.github.io/lesson_10/ "Моя готовая домашка") - Препроцессор LESS для CSS
 
 [Урок 12](https://badgunman.github.io/lesson_12/ "Моя готовая домашка") - Работа с репозиторием на GitHub
+
+[Урок 13](https://badgunman.github.io/lesson_13/ "Моя готовая домашка") - Адаптивная верстка
