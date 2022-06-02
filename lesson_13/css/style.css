@@ -1,0 +1,70 @@
+html, body {
+            height: 100%;
+                       }
+
+body {
+            background-color: rgb( 235, 244, 244 );
+                     }
+
+form {
+  height: 340px;
+  width: 320px;
+  padding-top: 50px;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /*border: 2px solid #01bfbf;*/
+}
+h2 {
+  text-align: center;
+  border: 1px solid rgb( 235, 244, 244 );
+  background-color: #01bfbf;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 25px;
+  width: 150px;
+  font-size: 12px;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 0px 50px 0px;
+}
+.row>* {
+  padding-right: 0;
+  padding-left: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+.col-lg-4 {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.form-label {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.btn {
+  background-color: #01bfbf;
+  margin-top: 35px;
+  margin-bottom: 30px;
+
+}
+
+
+@media (min-width: 600px) and (max-width: 600px) {
+  .content {
+    width: 95%;
+  }
+  .menu {
+    width: 95%;
+  }
+}
