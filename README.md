@@ -18,3 +18,5 @@
 [Урок 12](https://badgunman.github.io/lesson_12/ "Моя готовая домашка") - Работа с репозиторием на GitHub
 
 [Урок 13](https://badgunman.github.io/lesson_13/ "Моя готовая домашка") - Адаптивная верстка
+
+[Практика. Часть 1](https://badgunman.github.io/practice_part_1/ "Моя готовая домашка") - Подготовка файлов. Верстка шапки сайта
