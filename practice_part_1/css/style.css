@@ -1,0 +1,56 @@
+/*Colors*/
+/*Basic setting*/
+html {
+  font-size: 10px;
+  /*Размер шрифтов страницы*/
+}
+.button {
+  background-color: #fcb303;
+  /*Цвет кнопки*/
+  color: #ffffff;
+  /*Цвет текста*/
+  padding: 1rem 3rem;
+  /*Отступы текста в кнопке*/
+  border-radius: 8px;
+  /*степень закругления кнопки*/
+  text-transform: uppercase;
+  /*Заглавные буквы кнопки*/
+  border: none;
+  /*Убрать фон кнопки*/
+}
+/*Typography*/
+section {
+  padding: 10rem 0;
+  /*Отступы разделов сверх и снизу по 10rem(100px)*/
+}
+/*main*/
+main {
+  padding: 3rem 0;
+  /*Отступ шапки от верхней границы*/
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  /*схема для кноки ВЫРАВНИВАНИЯ ПО ЦЕНТРУ*/
+  display: table;
+  /*Блок под кнопку ввиде таблицы*/
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  /*Вертикальное выравнивание по середине*/
+}
+.phone-link {
+  /*Схема для текста ссылки ВЫРАВНИВАНИЯ ПО ЦЕНТРУ*/
+  display: inline-block;
+  /*Для возможности создавать размеры и отступы ссылки*/
+  color: #1a1820;
+  font-weight: 900;
+  /*текст жирным*/
+  font-size: 1.7rem;
+  height: 7rem;
+  line-height: 7rem;
+}
